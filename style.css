@@ -1,0 +1,126 @@
+*{
+   box-sizing: border-box;
+   margin: 0%;
+   padding: 0%;
+
+}
+body{
+    width: 1440px;
+    height: 922px; 
+    padding: 80px 165px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FAFAFA;
+}
+.container{
+    display: flex;
+    flex-direction:column;
+    gap: 64px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.item{
+    width: 350px;
+    height: 250px;
+    display: flex;   
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+    padding: 32px;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 40px;
+    
+}
+.qveda{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+.zeda{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    
+}
+.qvedadivisshua{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.foto{
+    display: flex;
+    align-self:end;
+}
+.warwerebi {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.qvedadivis1{
+    border-top: solid #44D3D2 ;
+}
+.qvedadivisshua1 {
+    border-top: 4px solid #EA5454;
+}
+.qvedadivisshua2{
+    border-top: 4px solid #FCAE4A;
+}
+.qvedadivis3{
+    border-top: solid #549EF2;
+}
+.satauri1{
+    color: #4D4F62;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 275;
+    line-height: normal;
+    letter-spacing: 0.25px;
+    text-align: center;
+}
+.satauri2{
+    color: #4D4F62;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.25px;
+}
+.zedadivisaghwera{
+    color: #4D4F62;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 166.667% */
+    letter-spacing: 0.104px;
+}
+.satauri{
+    color: #4D4F62;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.aghwera{
+    color: #4D4F62;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px; /* 176.923% */
+    letter-spacing: 0.09px;
+}
+
+
